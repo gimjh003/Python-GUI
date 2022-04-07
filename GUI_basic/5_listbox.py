@@ -1,5 +1,4 @@
 from tkinter import *
-import time
 root = Tk()
 root.title("My first GUI")
 root.geometry("640x480")
