@@ -9,7 +9,7 @@ Button(root, text="주문하기").pack(side="bottom")
 
 # menu frame
 frame_burger = Frame(root, relief="solid", bd=1)
-frame_burger.pack(side="left", fill="both", expand=True)
+frame_burger.pack(side="left", fill="both", expand=True) # expand를 쓰면 꽉 참
 
 btn = Button(frame_burger, text="햄버거").pack()
 btn2 = Button(frame_burger, text="치즈버거").pack()
