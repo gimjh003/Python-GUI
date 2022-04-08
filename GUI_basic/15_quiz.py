@@ -19,7 +19,7 @@ def fopen():
         txt.insert(END, file.read())
 
 def save():
-    with open("mynote.txt", "w") as file:
+    with open("mynote.txt", "w", encoding="utf8") as file:
         file.write(txt.get("1.0", END))
 
 # 메뉴
